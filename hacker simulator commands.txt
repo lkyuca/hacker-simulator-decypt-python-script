@@ -1,0 +1,51 @@
+basic commands explained
+
+hacking wifi:
+
+airodump
+
+aireplay [bssid]
+
+aircrack [handshake-file]
+
+
+ls  (show what in a folder)
+ls downloads
+
+cat (show what is in a txt file
+cat downloads/refuse.txt
+
+upload (sent malware to a computer)
+upload malware/Bitched_malware downloads
+
+
+creating own exploits                            doe een nmap scan dan krijg je bijvorbeeld http version 212 koop die bij de back store en de library erbij dan voor het volgende commando
+
+scandll http_212.dll
+mac address:0xCF3B97DD
+
+exploitcompile (library exploit) (mac address)
+exploitcompile smb_212.so 0xBFF40E19
+
+bij elke nieuwe exploit moet je shellcode er bij kopen voor 6 coins 
+
+
+decrypt (folder name)
+decrypt downloads
+
+ripperjack >ip address< >FTP of SSH< >dictionary<
+ripperjack 159.153.37.253 ssh reverse
+
+dictionary reverse, phantom, diablo, blade
+
+FTP commands
+
+dir (optional)[folder]
+put (from)[folder]/[file] (to)[folder]
+quit
+
+SSH commands
+
+scp [folder]/[file]
+exit
+put (from)[folder]/[file] (to)[folder]
